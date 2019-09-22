@@ -1,0 +1,64 @@
+
+main p {
+  margin: 0 0 20px;
+  line-height: 1.5;
+}
+
+main {
+  min-width: 320px;
+  max-width: 1100px;
+  padding: 70px 20px 85px;
+  margin: 0 33.875px;
+  z-index: 2;
+}
+
+main section {
+  display: none;
+  padding: 30px 0 0;
+  z-index: 2;
+}
+
+main input {
+  display: none;
+}
+
+label {
+  transition: all 0.5s ease;
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 5px 15px;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #6598c7;
+  border: 1px solid rgba(0, 0, 0, 0.000001);
+  border-radius: 14px;
+}
+
+label:hover {
+  color: #6598c7;
+  cursor: pointer;
+  border-color: #6598c7;
+}
+
+main input:checked + label {
+  border: 1px solid rgba(0, 0, 0, 0.000001);
+  color: #05335d;
+}
+
+#tab1:checked ~ #tab-expected-cars,
+#tab2:checked ~ #tab-auction,
+#tab3:checked ~ #tab-restored-cars {
+  display: block;
+}
+
+@media screen and (max-width: 650px) {
+  label {
+    font-size: 16;
+  }
+
+  label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}

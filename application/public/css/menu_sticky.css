@@ -1,0 +1,53 @@
+/*
+=====================
+=====================
+Sticky styles
+=====================
+=====================
+*/
+.sticky {
+  transition: ease .3s;
+  z-index: 100;
+}
+
+.sticky-pin {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.sticky__logo img{
+  height: 30px;
+  display: block;
+}
+
+/*
+=====================
+=====================
+Optional styles
+=====================
+=====================
+*/
+
+.menu {
+  width: 100%;
+  padding: 18px 0;
+  background: #32466b;
+  color: #ffffff;
+}
+
+section {
+  margin: 0 auto;
+}
+
+.sticky-pin {
+  z-index: 10;
+  background: #fff;
+  color: #32466b;
+  box-shadow:
+    0 3px 6px rgba(0, 123, 255, 0.24),
+    0 3px 6px rgba(0, 123, 255, 0.24);
+}
+
+
+
