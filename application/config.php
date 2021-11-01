@@ -23,10 +23,10 @@ $config = array(
 	
 	// DB
 	'db_type'      =>      'pdo',
-	'db_hostname'  =>      'adlion.mysql.tools',
+	'db_hostname'  =>      'host',
 	'db_port'      =>      3306,
-	'db_username'  =>      'adlion_db',
-	'db_password'  =>      'HUvJEs4b',
+	'db_username'  =>      'root',
+	'db_password'  =>      'root',
 	'db_database'  =>      'adlion_db',
     
 	// Mail
